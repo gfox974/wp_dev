@@ -10,10 +10,9 @@
 if (have_posts()) :
    while (have_posts()) :
       the_post();
-//get_sidebar();
 ?>
 
-<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+<h2><a href="<?php the_permalink(); ?>"> <?php the_title(); ?> </a></h2>
 <div class="entry">
     <?php the_content(); ?>
 </div>
@@ -22,6 +21,8 @@ if (have_posts()) :
     endwhile; else:
 ?>
     <p>Contenu non trouvé</p>
-<?php endif;
+
+<?php 
+endif;
     get_footer();
 ?>

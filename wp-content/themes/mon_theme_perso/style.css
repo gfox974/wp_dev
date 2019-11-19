@@ -1,0 +1,79 @@
+/*
+Theme name: Mon theme perso
+Author: Moi
+Description: Ouaou magnifayke
+Version: 1.0
+Text Domain: monthemeperso
+*/
+
+body {
+    background: green;
+    font-family: 'Source Code Pro', monospace;
+    overflow-x: hidden;
+    list-style: none;
+}
+
+.rouge {
+    min-height: 20vh;
+    background: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5vw;
+}
+
+.bleu {
+    background: blue;
+    display: flex;
+    height: 25vh;
+    justify-content: space-around;
+}
+
+.jaune {
+    min-height: 10vh;
+    background: yellow;
+}
+
+.violet {
+    min-height: 10vh;
+    background: violet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mon-logo_tel {
+    color: white;
+}
+
+.wp-image-12 {
+    height: 10vh;
+    width: 10vw;
+}
+
+.entete {
+    height: 20vh;
+    background: pink;
+}
+
+.wp-image-14 {
+    /*padding: 0 important;
+    position: relative;
+    left: 50%;
+    margin-left: -1000px;*/
+    height: 20vh;
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+
+.menu_admin_1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 10vh;
+    color: red;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
