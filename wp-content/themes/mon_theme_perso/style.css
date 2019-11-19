@@ -76,4 +76,8 @@ ul {
     color: red;
 }
 
+section {
+    min-height: 70vh;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
