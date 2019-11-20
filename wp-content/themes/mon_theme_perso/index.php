@@ -3,7 +3,7 @@
 ?>
 
 
-<h1>Coucou body</h1>
+<h1>Coucou index</h1>
 
 <?php
 // boucle while specifique wp
